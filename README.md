@@ -1,58 +1,101 @@
-<h1>Mass Video Downloader Instagram TikTok Youtube</h1>
+# Bulk Video Downloader for Instagram, TikTok, YouTube and VK
 
-Are you tired of saving videos one by one? Meet the ultimate Mass Video Downloader — a powerful desktop software designed for fast, automated, and high-quality bulk video downloading. Whether you are an SMM manager, a digital marketer, a video editor, or a content creator, this tool is the perfect solution for content curation and repurposing.
+Paste a profile link and get every video on it. This Windows app pulls
+whole Instagram, TikTok, YouTube and VK profiles in one run — no
+right-clicking, no copying links one at a time — and saves them as
+organised MP4 files in original quality.
 
-With our advanced video scraper and batch downloader, you can easily extract video links and download hundreds of videos from the most popular social media platforms directly to your PC in just a few clicks.
-🔥 Key Features of the Ultimate Bulk Video Downloader
+Built for people who move volume: social media managers filling a content
+calendar, dropshippers sourcing creative, page owners who repost daily.
 
-<ul class="features">
-  <li><strong>Batch Download Videos</strong> — Stop wasting time. Paste a list of URLs or use the built-in parser to mass download videos simultaneously.</li>
-  <li><strong>TikTok Downloader No Watermark</strong> — Automatically remove watermarks from downloaded TikTok videos. Get clean, high-quality MP4 files ready for reposting.</li>
-  <li><strong>Built-in Instagram Parser</strong> — Need to scrape an entire Instagram profile? Our smart auto-scrolling parser will extract all video links from any public page automatically.</li>
-  <li><strong>High-Quality Output</strong> — Download HD and 4K videos from YouTube, Instagram, and TikTok with maximum resolution and crystal-clear audio.</li>
-  <li><strong>Fast &amp; Multi-Threaded</strong> — Optimized for Windows, the software uses advanced algorithms to accelerate the downloading process without overloading your system.</li>
-</ul>
+**[Download the latest release](https://github.com/anikialt/parser_s_d/releases/latest)**
+— Windows 10 / 11 · 3 videos free
 
-📱 Supported Platforms
-<ol class="features">
-  <li>
-    <h3>Instagram Bulk Downloader</h3>
-    <p>Scraping and downloading IG content has never been easier. Use the software as a powerful Instagram Reels downloader and bulk save posts. The integrated web-scraper automatically collects URLs from any profile, saving you hours of manual work.</p>
-  </li>
-  <li>
-    <h3>TikTok Batch Downloader</h3>
-    <p>Perfect for dropshippers and meme pages. Download TikToks in bulk to your hard drive. Our TikTok mass downloader bypasses the logo, ensuring every clip is saved completely without a watermark.</p>
-  </li>
-  <li>
-    <h3>YouTube &amp; Shorts Mass Downloader</h3>
-    <p>Create massive video archives offline. Paste multiple links to instantly bulk download YouTube videos and YouTube Shorts. Great for creating compilations, reaction videos, or offline viewing.</p>
-  </li>
-</ol>
+## Who it's for
 
-<h3>🎯 Who is this software for?</h3>
-<ul class="audience">
-  <li><strong>Social Media Managers (SMM) &amp; Marketers</strong> — Automate your content strategy. Scrape viral videos, analyze competitors, and build your media library fast.</li>
-  <li><strong>Content Creators &amp; Editors</strong> — Easily gather raw footage for video editing and content repurposing across different platforms.</li>
-  <li><strong>Archivists &amp; Data Researchers</strong> — Back up your favorite channels and profiles before they get deleted or shadowbanned.</li>
-</ul>
+### Social media managers and agencies
+Pull a competitor's entire Reels library in one pass and turn the winners
+into your own content plan. What used to take an afternoon of manual
+saving takes a coffee break.
 
-⚙️ How It Works (3 Easy Steps)
+### Dropshippers and product pages
+Source ad creative at scale without paying per clip. Download a supplier's
+whole TikTok catalogue, test angles, keep what converts.
 
-<ol class="steps">
-  <li>
-    <h4>Parse or Paste URLs</h4>
-    <p>Use the built-in automated scraper to grab links directly from Instagram, or manually paste a <code>.txt</code> list of YouTube/TikTok URLs.</p>
-  </li>
-  <li>
-    <h4>Verify &amp; Start</h4>
-    <p>The software will validate all links and prepare them for extraction.</p>
-  </li>
-  <li>
-    <h4>Bulk Download</h4>
-    <p>Click the download button and watch as the program automatically saves all high-quality MP4 files into your designated folder.</p>
-  </li>
-</ol>
+### Meme pages and repost accounts
+Keep a buffer of ready-to-post clips. Batch download on Sunday, schedule
+the whole week.
 
-Download the Best Automated Video Grabber Today!
+### Video editors
+Collect reference footage and B-roll from several platforms into one
+folder, named consistently and ready for the timeline.
 
-Stop doing manual work. Upgrade your workflow with the most reliable URL video downloader for PC. Compatible with Windows 10 and Windows 11.
+## What it does
+
+### Instagram — bulk download from a profile
+Paste the profile URL and press Parse. A real Chrome window opens, scrolls
+the page automatically and collects every video link it finds, then saves
+them to a list. Press Download and the whole list comes down. Works on
+Reels and feed posts from public profiles.
+
+### TikTok — whole profiles, no watermark
+Point it at a TikTok profile and every video downloads at once. Clips are
+saved clean, without the logo overlay, so they drop straight into your
+editor.
+
+### YouTube and Shorts — channels in one run
+Paste a channel or playlist URL and download it in bulk. Works with
+Shorts, long videos, playlists and private content where your account has
+access.
+
+### VK — profile archives
+Same one-link workflow for VK profiles.
+
+### Any direct link
+Single videos from any supported platform: paste the URL, press Download,
+done.
+
+### Original quality, MP4 output
+Files are saved at the resolution the platform serves, with original audio
+and no re-encoding. High-quality mode merges the video and audio streams
+into a single MP4.
+
+### Runs unattended
+Pause, resume and stop controls, automatic retries on failed downloads,
+and a live log showing exactly what is happening. Long queues run without
+babysitting.
+
+### Proxy support
+HTTP and SOCKS5 with authentication, optional, with a test button to check
+the connection before a long run.
+
+## Supported platforms
+
+| Platform | Whole profile | Built-in parser | Cookies for private content |
+|---|---|---|---|
+| Instagram | Via parser | Yes | Yes |
+| TikTok | Yes | — | Yes |
+| YouTube & Shorts | Yes | — | Yes |
+| VK | Yes | — | Yes |
+| Direct links | — | — | Yes |
+
+## How it works
+
+1. **Add a link** — paste a profile URL for Instagram, TikTok, YouTube or
+   VK, or a direct link to a single video
+2. **Parse (Instagram only)** — the app opens Chrome, scrolls the profile
+   and saves every video link to a list
+3. **Download** — press the button; files land in the Downloads folder
+   next to the app, named by title and video ID
+
+## Free trial
+
+Three videos, fully functional, no time limit and no card required.
+Instagram profile parsing is the only feature locked during the trial —
+single Instagram videos still download by direct link, so you can check
+output quality first.
+
+## System requirements
+
+- Windows 10 or 11, 64-bit
+- Google Chrome — required for Instagram profile pars
