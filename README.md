@@ -98,4 +98,60 @@ output quality first.
 ## System requirements
 
 - Windows 10 or 11, 64-bit
-- Google Chrome — required for Instagram profile pars
+- Google Chrome — required for Instagram profile parsing only
+- About 200 MB for the app, plus space for your downloads
+
+## FAQ
+
+### How does the free trial work?
+Three videos, any platform, no time limit. The counter is per video, not
+per run, so you can test a batch of three. No card required.
+
+### Can I try Instagram profile parsing before buying?
+Not in the trial — the parser is the one gated feature. Single Instagram
+videos download fine by direct link, so you can verify output quality
+first.
+
+### Do I need to log in to Instagram?
+The parser opens a real Chrome window with a saved profile. You can log in
+once and it stays remembered, which helps when Instagram asks to verify
+the session. Public profiles work without logging in, though Instagram
+sometimes limits how much it shows to logged-out visitors.
+
+### How many videos can I queue at once?
+No hard limit in the app. The queue is read from a list file, one URL per
+line. Long runs are limited only by disk space and your connection.
+
+### Will the quality drop?
+No re-encoding happens. Files are saved at the resolution the platform
+serves. High-quality mode merges video and audio into one MP4 instead of
+leaving them as separate streams.
+
+### Where are files saved?
+To a Downloads folder next to the application, named as
+`video-title_videoID.mp4`. Files already present are skipped, so running
+the same queue twice does not duplicate them.
+
+### Does it work on Mac or Linux?
+Windows only. There is no macOS or Linux build.
+
+### YouTube asks me to sign in. What do I do?
+Load a `cookies.txt` file exported from your browser using the Cookies
+button. This also unlocks private YouTube videos and content that requires
+an account.
+
+### Can I use one licence on several computers?
+A licence key is bound to the hardware ID of one PC. Moving to a new
+machine needs a new key.
+
+### Does it work behind a proxy?
+Yes. HTTP and SOCKS5 with username and password are supported, and a test
+button checks the connection before you start a long queue.
+
+### What happens if the connection drops mid-download?
+The app retries failed downloads automatically. Files already completed
+are not downloaded again on the next run.
+
+## Support
+
+Report issues in [Issues](https://github.com/anikialt/parser_s_d/issues).
